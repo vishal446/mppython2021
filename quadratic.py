@@ -1,4 +1,6 @@
-import math
+#import math
+#import math as sapana
+from math import *
 print("enter the coffecients of quadratic equation")
 a=float(input("Enter the value of a"))
 b=float(input("Enter the value of b"))
@@ -13,8 +15,8 @@ if d==0:
     print("Roots are x1=",x1," x2=",x2)
 elif d>0:
     print("Roots are real and unequal")
-    x1=(-b+math.sqrt(d))/(2*a)
-    x2 = (-b - math.sqrt(d)) / (2 * a)
+    x1=(-b+sqrt(d))/(2*a)
+    x2 = (-b - sqrt(d)) / (2 * a)
     print("Roots are x1=", x1, " x2=", x2)
 elif d<0:
     print("roots are imaginary")
