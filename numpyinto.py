@@ -24,10 +24,10 @@ print(arr3)
 arr4=arange(1,10,2)
 print(arr4)
 
-arr5=zeros(5)
+arr5=zeros(5,int)
 print(arr5)
 
-arr6=ones(5)
+arr6=ones(5,int)
 print(arr6)
 
 
